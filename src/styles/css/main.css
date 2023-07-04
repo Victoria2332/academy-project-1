@@ -186,6 +186,52 @@ h3 {
   margin-bottom: 1rem;
 }
 
+.welcome {
+  width: 25%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #cf316e;
+  color: white;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  outline: none;
+  background-color: #913068;
+  border: 4px solid rgba(0, 0, 0, 0);
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.field:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #913068 #913068;
+  transition: all 0.3s;
+}
+
+.btn_add {
+  background-color: #ffffff;
+}
+
 .navigation_up {
   display: flex;
   flex-wrap: wrap;
