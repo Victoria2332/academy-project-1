@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-color: $green-dark;
+  padding:$p-1;
+}
+
+.navbar__lists {
+  display: inline-flex;
+}
+
+.navbar__list {
+  padding: $p-2;
+}
+
+.navbar__link {
+  color:  $white;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.navigation_down {
+  background-color: $link-hover;
+  padding:$p-0-5;
+}
+
+

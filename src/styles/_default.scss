@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: $font-family;
+  font-size: $font-14;
+  text-align: center;
+
+  color: $form-color;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: relative;
+}
+
+a:hover {
+  color: $link-hover;
+}
