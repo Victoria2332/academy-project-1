@@ -162,4 +162,9 @@ header {
 
 .text_white {
   color: #ffffff;
+}
+
+.navigation__footer_up {
+  background-color: #cf316e;
+  padding: 0.5rem;
 }/*# sourceMappingURL=main.css.map */
