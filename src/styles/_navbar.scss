@@ -1,4 +1,4 @@
-.navigation {
+.navigation_up {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -15,16 +15,11 @@
   padding: $p-2;
 }
 
-.navbar__link {
-  color:  $white;
-
-  list-style: none;
-  text-decoration: none;
-}
-
 .navigation_down {
   background-color: $link-hover;
   padding:$p-0-5;
 }
+
+
 
 
