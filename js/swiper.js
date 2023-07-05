@@ -23,7 +23,7 @@ const gallary = new Swiper(".gallary", {
   direction: "horizontal",
   arrows: true,
   loop: true,
-  slidesPerView:4,
+  slidesPerView: s4,
   scrollbar: {
     el: ".swiper-scrollbar",
   },
