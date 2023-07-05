@@ -18,6 +18,26 @@ const swiper = new Swiper(".swiper", {
     el: '.swiper-scrollbar',
   },
 });
+
+const gallary = new Swiper(".gallary", {
+  direction: "horizontal",
+  arrows: true,
+  loop: true,
+  slidesPerView:4,
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 export default swiper;
 
 
