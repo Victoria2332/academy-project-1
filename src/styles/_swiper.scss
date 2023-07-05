@@ -1,0 +1,37 @@
+.swiper {
+  display: flex !important;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  
+  margin: $m-1;
+  padding: $p-1;
+
+  background-color: $white-darken;
+  
+  border-radius: 1rem;
+
+  color: $link-hover;
+  text-align: center;
+}
+
+.img_swiper {
+  border-radius: 100px;
+
+  margin-bottom: $m-1;
+}
+
+.inner {
+  display: flex !important;
+}
+
+.gallary {
+  display: flex;
+}
+

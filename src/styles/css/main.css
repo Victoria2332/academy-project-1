@@ -116,7 +116,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   text-align: center;
-  color: #913068;
+  color: #cf316e;
   overflow-x: hidden;
 }
 
@@ -128,7 +128,126 @@ a:hover {
   color: #cf316e;
 }
 
-.navigation {
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 24px;
+  color: #cf316e;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: line-through;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.img {
+  width: 270px;
+  height: 200px;
+}
+
+.img:hover {
+  box-shadow: 0 6px 5px rgba(57, 63, 72, 0.83);
+}
+
+.image_phone {
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
+}
+
+.swiper {
+  display: flex !important;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #e6e3e3;
+  border-radius: 1rem;
+  color: #cf316e;
+  text-align: center;
+}
+
+.img_swiper {
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+.inner {
+  display: flex !important;
+}
+
+.gallary {
+  display: flex;
+}
+
+.welcome {
+  width: 25%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #cf316e;
+  color: white;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  outline: none;
+  background-color: #913068;
+  border: 4px solid rgba(0, 0, 0, 0);
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.field:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #913068 #913068;
+  transition: all 0.3s;
+}
+
+.btn_add {
+  background-color: #ffffff;
+}
+
+.navigation_up {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -144,22 +263,121 @@ a:hover {
   padding: 2rem;
 }
 
-.navbar__link {
-  color: #ffffff;
-  list-style: none;
-  text-decoration: none;
-}
-
 .navigation_down {
   background-color: #cf316e;
   padding: 0.5rem;
 }
 
-header {
-  position: fixed;
+.header {
+  text-align: center;
   width: 100%;
+  position: fixed;
+  float: inherit;
+  z-index: 10;
 }
 
 .text_white {
   color: #ffffff;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 11rem;
+  width: 100%;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.section__about,
+.section__contacts {
+  padding: 3rem;
+  margin: 2rem;
+  background-image: url("https://phonoteka.org/uploads/posts/2022-02/thumbs/1643880024_15-phonoteka-org-p-fon-more-zakat-20.jpg");
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.text_about {
+  font-weight: 500;
+}
+
+.link_about {
+  color: #cf316e;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+.section__delivery {
+  padding: 3rem;
+  margin: 4rem;
+  background-color: #e6e3e3;
+  border-radius: 8px;
+}
+
+.div__delivery {
+  padding-top: 2rem;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+.list__delivery {
+  display: inline-flex;
+}
+
+.container {
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+
+.text_delivery {
+  color: #000000;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 60, 3%;
+  margin-bottom: 1rem;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.container__products {
+  padding: 2rem;
+}
+
+.lists__products {
+  display: inline-flex;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text_contacts {
+  color: #ffffff;
+}
+
+.navigation__footer_up {
+  background-color: #cf316e;
+  padding: 0.5rem;
+}
+
+.navigation__footer {
+  background-color: #29463e;
+}
+
+.navbar__list_footer {
+  padding: 1rem;
+}
+
+.navigation__footer_down {
+  background-color: #181f1c;
+  padding: 1rem;
+}
+
+.text_footer {
+  color: #ffffff;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */

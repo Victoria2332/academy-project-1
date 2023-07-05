@@ -1,0 +1,96 @@
+.main {
+  background-color: $white;
+  
+  padding: $p-11;
+  width: 100%;
+}
+
+.section {
+  padding: $p-1;
+}
+
+.section__about,
+.section__contacts {
+  
+  padding: $p-3;
+  margin: $m-2;
+  
+  background-image: url('https://phonoteka.org/uploads/posts/2022-02/thumbs/1643880024_15-phonoteka-org-p-fon-more-zakat-20.jpg');
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.text_about {
+  font-weight: $font-w-500;
+}
+
+.link_about {
+  color: $link-hover;
+  font-weight: $font-w-500;
+
+  padding: $p-3;
+}
+
+.section__delivery {
+  padding: $p-3;
+  margin: $m-4;
+
+  background-color: $white-darken;
+  border-radius: 8px;
+}
+
+.div__delivery {
+  padding-top: $p-2;
+  margin: $m-1;
+  justify-content: space-between;
+}
+
+.list__delivery {
+  display: inline-flex; 
+}
+
+.container {
+  justify-content: space-between;
+  padding-right: $p-2;
+}
+
+.text_delivery {
+  color: $black;
+}
+
+.circle {
+  width: 60px;
+  height: 60px; 
+  border-radius: 60,3%; 
+
+  margin-bottom: $m-1;
+
+  justify-content: center;
+
+  background-color: $white;
+  border-radius: 25px;
+}
+
+.container__products {
+  padding: $p-2;
+}
+
+.lists__products {
+  display: inline-flex;
+  
+  margin-right: $m-2;
+  margin-bottom: $m-2;
+}
+
+.text_contacts {
+  color: $white;
+}
+
+
+
+
+
+
+
+  
+

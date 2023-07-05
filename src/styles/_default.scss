@@ -7,7 +7,7 @@ body {
   font-size: $font-14;
   text-align: center;
 
-  color: $form-color;
+  color: $link-hover;
   overflow-x: hidden;
 }
 
@@ -17,4 +17,51 @@ body {
 
 a:hover {
   color: $link-hover;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+
+  color: $white;
+}
+
+h1 {
+  font-size: $font-24;
+  color: $link-hover;
+  font-weight: $font-w-700;
+
+  letter-spacing: 3px;
+  text-decoration: line-through;
+}
+
+h2 {
+  color: $white;
+  font-size: $font-16;
+  font-weight: $font-w-700;
+
+  margin-bottom: $m-3;
+}
+
+h3 {
+  font-size: $font-18;
+  font-weight: $font-w-700;
+
+  margin-bottom: $m-2;
+}
+
+.img {
+  width: 270px;
+  height: 200px;
+
+}
+
+.img:hover {
+  box-shadow: 0 6px 5px $shadow;
+}
+
+.image_phone {
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
 }

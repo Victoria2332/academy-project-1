@@ -1,6 +1,11 @@
-header {
-  position: fixed;
+.header {
+  text-align: center;
+
   width: 100%;
+  position: fixed;
+  float: inherit;
+
+  z-index: 10;
 }
 
 .text_white {
