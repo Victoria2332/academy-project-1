@@ -342,4 +342,27 @@ h3 {
 
 .text_contacts {
   color: #ffffff;
+}
+
+.navigation__footer_up {
+  background-color: #cf316e;
+  padding: 0.5rem;
+}
+
+.navigation__footer {
+  background-color: #29463e;
+}
+
+.navbar__list_footer {
+  padding: 1rem;
+}
+
+.navigation__footer_down {
+  background-color: #181f1c;
+  padding: 1rem;
+}
+
+.text_footer {
+  color: #ffffff;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
