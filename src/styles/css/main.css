@@ -160,9 +160,18 @@ h3 {
   height: 200px;
 }
 
+.img:hover {
+  box-shadow: 0 6px 5px rgba(57, 63, 72, 0.83);
+}
+
+.image_phone {
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
+}
+
 .swiper {
-  width: 100%;
-  height: auto;
+  display: flex !important;
 }
 
 .products {
@@ -172,7 +181,6 @@ h3 {
 }
 
 .product {
-  position: relative;
   margin: 1rem;
   padding: 1rem;
   background-color: #e6e3e3;
@@ -190,7 +198,6 @@ h3 {
   width: 25%;
   margin: 0 auto;
   padding: 1rem;
-  margin-top: 1rem;
   background-color: #cf316e;
   color: white;
   border-radius: 0.8rem;
@@ -256,6 +263,9 @@ h3 {
 .header {
   text-align: center;
   width: 100%;
+  position: fixed;
+  float: inherit;
+  z-index: 10;
 }
 
 .text_white {
@@ -263,8 +273,9 @@ h3 {
 }
 
 .main {
-  background-color: #fff;
-  padding: 1rem;
+  background-color: #ffffff;
+  padding: 11rem;
+  width: 100%;
 }
 
 .section {
@@ -273,7 +284,6 @@ h3 {
 
 .section__about,
 .section__contacts {
-  position: relative;
   padding: 3rem;
   margin: 2rem;
   background-image: url("https://phonoteka.org/uploads/posts/2022-02/thumbs/1643880024_15-phonoteka-org-p-fon-more-zakat-20.jpg");
@@ -292,7 +302,6 @@ h3 {
 }
 
 .section__delivery {
-  position: relative;
   padding: 3rem;
   margin: 4rem;
   background-color: #e6e3e3;
@@ -306,7 +315,6 @@ h3 {
 }
 
 .list__delivery {
-  position: relative;
   display: inline-flex;
 }
 
@@ -335,7 +343,6 @@ h3 {
 
 .lists__products {
   display: inline-flex;
-  flex-wrap: wrap;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }

@@ -1,6 +1,5 @@
 .swiper {
-  width: 100%;
-  height: auto;
+  display: flex !important;
 }
 
 .products {
@@ -10,7 +9,6 @@
 }
 
 .product {
-  position: relative;
   
   margin: $m-1;
   padding: $p-1;
@@ -28,3 +26,6 @@
 
   margin-bottom: $m-1;
 }
+
+
+

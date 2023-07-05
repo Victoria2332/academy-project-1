@@ -53,4 +53,15 @@ h3 {
 .img {
   width: 270px;
   height: 200px;
+
+}
+
+.img:hover {
+  box-shadow: 0 6px 5px $shadow;
+}
+
+.image_phone {
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
 }

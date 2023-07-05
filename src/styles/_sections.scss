@@ -1,7 +1,8 @@
 .main {
-  background-color: #fff;
+  background-color: $white;
   
-  padding: $p-1;
+  padding: $p-11;
+  width: 100%;
 }
 
 .section {
@@ -10,7 +11,6 @@
 
 .section__about,
 .section__contacts {
-  position: relative;
   
   padding: $p-3;
   margin: $m-2;
@@ -32,8 +32,6 @@
 }
 
 .section__delivery {
-  position: relative;
-
   padding: $p-3;
   margin: $m-4;
 
@@ -48,7 +46,6 @@
 }
 
 .list__delivery {
-  position: relative;
   display: inline-flex; 
 }
 
@@ -80,8 +77,7 @@
 
 .lists__products {
   display: inline-flex;
-  flex-wrap: wrap;
-
+  
   margin-right: $m-2;
   margin-bottom: $m-2;
 }
